@@ -1,0 +1,2 @@
+# ChordProgression
+Chord Progression Generator
