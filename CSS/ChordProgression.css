@@ -1,0 +1,46 @@
+html {
+   box-sizing: border-box;
+   font-family: Verdana,  Geneva, sans-serif;;
+   padding: 0px; margin: 0px; border: 0px solid #000000;  
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+} 
+
+#txtbarra{
+	display:inline; 
+}
+
+section{
+	/* DEBUG Start */
+	border-style: solid; border-width: thin; border-color: red;	
+	/* DEBUG End */
+}
+
+
+

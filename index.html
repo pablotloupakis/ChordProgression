@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Chord Progressions and Substitution </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta window.top="Chord Progressions and Substitution"> 
+	<link rel="stylesheet" type="text/css" href="CSS/ChordProgression.css">
+</head>
+<body>
+	<section id="sectionInput">	
+		<select id=selMode>
+			<option value="Major">Major</option>
+			<option value="Minor">Minor</option>
+		</select>
+		<select id=selProgression>
+			<option value="caca">caca</option>
+			<option value="pis" selected>pis</option>
+		</select>
+		<select id=selKey>
+		  <option value="C">C</option>
+		  <option value="C#">C#</option>
+		  <option value="D">D</option>
+		  <option value="D#">D#</option>
+		  <option value="E">E</option>
+		  <option value="F">F</option>
+		  <option value="F#">F#</option>
+		  <option value="G">G</option>
+		  <option value="G#">G#</option>
+		  <option value="A">A</option>
+		  <option value="A#">A#</option>
+		  <option value="B">B</option>
+		</select>	
+		<input type="number" id=selTempo min="40" max="220" value="120"></input>
+		<select id=selBeatsPerMeasure>
+			<option value=2>2</option>
+			<option value=3>3</option>
+			<option value=4 selected>4</option>
+			<option value=5>5</option>
+			<option value=6>6</option>
+			<option value=7>7</option>			
+			<option value=8>8</option>
+			<option value=9>9</option>			
+			<option value=10>10</option>
+			<option value=11>11</option>
+			<option value=12>12</option>
+		</select>	
+		<p id="txtbarra"> / </p>
+		<select id=selBeats>
+			<option value=2>2</option>
+			<option value=4 selected>4</option>
+			<option value=8>8</option>
+		</select>	
+	</section>	
+	
+	
+	<section id="sectionOutput">	
+		<p id="paraOutput"></p>
+	</section>		
+
+
+	<script type="text/javascript" src="JS/ChordProgression.js"></script>
+</body>
+</html> 
+
+
+
+		
+		
+		
+		
